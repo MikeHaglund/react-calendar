@@ -159,7 +159,7 @@ main {
   border-right: 1px solid var(--border-color);
   overflow: hidden;
   cursor: pointer;
-  background: lightsteelblue;
+  background: gold;
   transition: 0.25s ease-out;
 }
 
@@ -224,4 +224,3 @@ main {
   flex-basis: calc(100% / 7);
   width: calc(100% / 7);
 }
-
