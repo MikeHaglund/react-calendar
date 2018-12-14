@@ -113,7 +113,7 @@ main {
   display: block;
   position: relative;
   width: 100%;
-  background: var(--neutral-color);
+  background: purple;
   border: 1px solid var(--border-color);
 }
 
@@ -159,7 +159,7 @@ main {
   border-right: 1px solid var(--border-color);
   overflow: hidden;
   cursor: pointer;
-  background: var(--neutral-color);
+  background: lightsteelblue;
   transition: 0.25s ease-out;
 }
 
@@ -215,7 +215,7 @@ main {
 
 .calendar .body .cell:hover .bg,
 .calendar .body .selected .bg {
-  opacity: 0.05;
+  opacity: 0.25;
   transition: 0.5s ease-in;
 }
 
@@ -224,3 +224,4 @@ main {
   flex-basis: calc(100% / 7);
   width: calc(100% / 7);
 }
+
